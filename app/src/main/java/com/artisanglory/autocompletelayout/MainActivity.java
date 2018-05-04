@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     CustomAdapter adapter;
     ArrayList<Exercise> mExercises;
 
-    private final static String BASE_URL = "http://www.geohaz.in/hospital_safety_who/webservice/";
+    // place base url
     public final static String GET_CALORIE_LIST = BASE_URL + "search_calorie_item_list.php";
 
     @Override
