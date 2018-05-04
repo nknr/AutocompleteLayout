@@ -37,15 +37,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ArrayList<Exercise> mExercises;
 
     // place base url
-    public final static String GET_CALORIE_LIST = BASE_URL + "search_calorie_item_list.php";
+    public final static String GET_CALORIE_LIST = /*BASE_URL +*/ "search_calorie_item_list.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
